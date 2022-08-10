@@ -1,0 +1,36 @@
+#title{
+    background: #ff4c68
+}
+
+h1{
+    font-family: "Montserrat", "Arial";
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin: 2em 0;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#iphone-image{
+    transform: rotate(20deg);
+
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+.nav-link{
+    color:antiquewhite;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+}
+
+a:hover{
+    color: aqua;
+}
