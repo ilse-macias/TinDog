@@ -17,7 +17,7 @@ h1{
 
 #iphone-image{
     transform: rotate(20deg);
-
+    margin-top: 15pxS;
 }
 
 .navbar-brand{
@@ -29,6 +29,14 @@ h1{
     color:antiquewhite;
     font-size: 20px;
     margin: 0 10px 0 10px;
+}
+
+#navbarToggler01{
+    text-align: center;
+}
+
+.btn.btn-dark.btn-lg{
+   margin-right: 1rem;
 }
 
 a:hover{
