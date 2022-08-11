@@ -105,3 +105,21 @@ h3{
 .carousel-item{
     padding: 7% 15%;
 }
+
+h2{
+    color: black;
+} 
+
+p{
+    color: #8f8f8f;
+}
+
+/*pricing section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
