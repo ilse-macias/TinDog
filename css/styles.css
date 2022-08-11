@@ -6,7 +6,7 @@ body{
     font-family: "Montserrat", "Arial";
 }
 
-h1{
+h1, h2{
     font-weight: bold;
     size: 3rem;
     line-height: 1.5;
@@ -24,7 +24,7 @@ h1{
     width: 50%;
 }
 
-/*Nav Bar*/
+/*nav Bar*/
 .navbar{
     padding-bottom: 4.5em;
 }
@@ -64,7 +64,7 @@ h3{
     text-align: center;
     font-size: 16px;
     color: #8f8f8f;
-    padding: 100px 20px;
+    padding: 7% 15%; /*100px 40px*/
 }
 
 .icon-feature{
@@ -75,4 +75,33 @@ h3{
 
 .icon-feature:hover{
     color:#ff4c68
+}
+
+/*Testimonial Section*/
+#testimonials{
+
+    text-align: center;
+    background: #ef8172;
+    color: #fff;
+
+}
+
+#press{
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.press-logo{
+     margin-left: 25px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
