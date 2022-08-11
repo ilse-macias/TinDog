@@ -19,6 +19,7 @@ h1{
 }
 
 #iphone-image{
+    padding-top: 25px; 
     transform: rotate(20deg);
     width: 50%;
 }
@@ -49,4 +50,29 @@ h1{
 .download-button{
 
    margin: 30px 1rem 0 0;
+}
+
+
+/*features*/
+h3{
+    font-weight: 800;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#features{
+    text-align: center;
+    font-size: 16px;
+    color: #8f8f8f;
+    padding: 100px 20px;
+}
+
+.icon-feature{
+    color: #ef8172;
+    /* font-size: 2.5rem; */
+    padding: 1rem;
+}
+
+.icon-feature:hover{
+    color:#ff4c68
 }
