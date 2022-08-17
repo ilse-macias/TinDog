@@ -19,14 +19,14 @@ h1, h2{
 }
 
 #iphone-image{
-    padding-top: 25px; 
     transform: rotate(20deg);
-    width: 50%;
+    position: absolute;
+    padding-left: 35px;
 }
 
 /*nav Bar*/
 .navbar{
-    padding-bottom: 4.5em;
+    padding-bottom: 3.5em;
 }
 
 .navbar-brand{
@@ -65,6 +65,10 @@ h3{
     font-size: 16px;
     color: #8f8f8f;
     padding: 7% 15%; /*100px 40px*/
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
 }
 
 .icon-feature{
@@ -122,4 +126,18 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+
+@media (max-width: 990px) and (min-width: 500px ){
+    #title{
+        text-align: center;
+    }
+
+    #iphone-image {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 2rem;
+        padding-left: 0px;
+    }
 }
