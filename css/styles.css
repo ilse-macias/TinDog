@@ -142,20 +142,36 @@ p{
     }
 }
 
+
+/* CTA Section*/
 #cta{
     background-color: #ff4c68;
-    /* font-family: "Montserrat"; */
-
+    /*font-family: "Montserrat";*/
     font-weight: 800;
-    padding: 3rem;
+    padding: 5rem 15%;
     text-align: center;
+
 }
 
-.cta-text{
-    color: white;
+h3.cta-text{
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 #footer{
     padding: 3rem;
     text-align: center;
+}
+
+.social-media-icon{
+    margin: 20px;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color: gray;
 }
