@@ -141,3 +141,21 @@ p{
         padding-left: 0px;
     }
 }
+
+#cta{
+    background-color: #ff4c68;
+    /* font-family: "Montserrat"; */
+
+    font-weight: 800;
+    padding: 3rem;
+    text-align: center;
+}
+
+.cta-text{
+    color: white;
+}
+
+#footer{
+    padding: 3rem;
+    text-align: center;
+}
