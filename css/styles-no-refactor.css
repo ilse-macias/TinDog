@@ -1,0 +1,171 @@
+#iphone-image{
+    transform: rotate(20deg);
+    position: absolute;
+    padding-left: 35px;
+}
+
+#title{
+    background: #ff4c68;
+}
+
+body{
+    font-family: "Montserrat", "Arial";
+}
+
+h1, h2{
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1.5;
+    color: white;
+    /* margin: 2em 0; */
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*nav Bar*/
+.navbar{
+    padding-bottom: 3.5em;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+/*Download buttons*/
+.download-button{
+   margin: 30px 1rem 0 0;
+}
+
+/*features*/
+h3{
+    font-weight: 800;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#features{
+    text-align: center;
+    font-size: 16px;
+    color: #8f8f8f;
+    padding: 7% 15%; /*100px 40px*/
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.icon-feature{
+    color: #ef8172;
+    /* font-size: 2.5rem; */
+    padding: 1rem;
+}
+
+.icon-feature:hover{
+    color:#ff4c68
+}
+
+/*Testimonial Section*/
+#testimonials{
+
+    text-align: center;
+    background: #ef8172;
+    color: #fff;
+
+}
+
+#press{
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.press-logo{
+    margin-left: 25px;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h2{
+    color: black;
+} 
+
+p{
+    color: #8f8f8f;
+}
+
+/*pricing section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CTA Section*/
+#cta{
+    background-color: #ff4c68;
+    font-weight: 800;
+    padding: 5rem 15%;
+    text-align: center;
+}
+
+#footer{
+    padding: 3rem;
+    text-align: center;
+}
+
+.social-media-icon{
+    margin: 20px;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color: gray;
+}
+
+h3.cta-text{
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 990px) and (min-width: 500px ){
+    #title{
+        text-align: center;
+    }
+
+    #iphone-image {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 2rem;
+        padding-left: 0px;
+    }
+}
