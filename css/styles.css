@@ -1,4 +1,3 @@
-/* CTA Section*/
 #cta, #title{
     background: #ff4c68;
 }
@@ -6,11 +5,9 @@
 #cta{
     font-weight: 800;
     padding: 5rem 15%;
-    text-align: center;
 }
 
 #features{
-    text-align: center;
     font-size: 16px;
     color: #8f8f8f;
     padding: 7% 15%; /*100px 40px*/
@@ -21,7 +18,7 @@
 
 #footer{
     padding: 3rem;
-    text-align: center;
+
 }
 
 #iphone-image{
@@ -31,7 +28,6 @@
 }
 
 #testimonials, #press{
-    text-align: center;
     background: #ef8172;
     color: #fff;
 }
@@ -42,7 +38,6 @@
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .carousel-item{
@@ -53,7 +48,6 @@
     padding: 3% 15%;
 }
 
-/*Download buttons*/
 .download-button{
     margin: 30px 1rem 0 0;
  }
@@ -68,7 +62,6 @@
     color:#ff4c68
 }
 
- /*nav Bar*/
 .navbar{
     padding-bottom: 3.5em;
 }
@@ -87,14 +80,12 @@
     font-size: 20px;
     font-weight: 300;
     margin: 0 10px 0 10px;
-    text-align: center;
 }
 
 .press-logo{
     margin-left: 25px;
 }
 
-/*pricing section*/
 .pricing-column{
     padding: 3% 2%;
 }
@@ -109,12 +100,17 @@
     margin: 20px;
 }
 
+.title{
+    text-align: left;
+}
+
 a, h2.title-princing, h3.title-feature, h3.title-princing{
     color:black;
 }
 
 body{
     font-family: "Montserrat", "Arial";
+    text-align: center;
 }
 
 h1, h2, h3{
@@ -122,12 +118,9 @@ h1, h2, h3{
     size: 3rem;
     line-height: 1.5;
     color: white;
-    /* margin: 2em 0; */
 }
 
-/*features*/
 h3{
-    /* font-weight: 800; */
     font-size: 1.5rem;
 }
 
